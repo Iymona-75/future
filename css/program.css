@@ -176,13 +176,14 @@
   }
 
 
-  .left_ponel{
-    display: flex;
-    gap: 1rem;
-  }
+.left_ponel{
+  display: flex;
+  gap:2rem;
+}
 .search{
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 1rem;
   width: 280px;
 }
@@ -190,6 +191,11 @@
   display: flex;
   flex-direction: column;
   grid-gap: 1rem;
+}
+.search1 label{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
   .major_container{
     display: flex;
@@ -272,6 +278,7 @@
   }
 .card_container{
   display: flex;
+
 }
 .cards_cont{
   display: flex;
@@ -279,17 +286,29 @@
   flex-wrap: wrap;
   gap: 1rem;
   height: 1300px;
-
+  
 }
 .cardssss{
   display: flex;
   flex-direction: column;
   height: 200px;
   width: 400px;
-  background-color: aqua;
+  background-color: 
+  rgba(255, 206, 148, 1);
   border-radius: 15px;
   gap: 1rem;
-  padding: 20px;
+  padding: 22px;
+  
+}
+.cards_text_prog{
+  color: #85878f;
+  font-size: 15px;
+}
+
+.mobile_text{
+  display: flex;
+  width: 85%;
+  gap: 2rem;
 }
 
 
