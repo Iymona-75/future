@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+   
+  
+  }
+  .row{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1550px;
+    margin: 0 auto; 
+  }
+  li{
+    display: flex;
+  }
+  .logo_cont{
+    display: flex;  
+    width: 100px;
+    height: 60px;
+  }
+  .logo_cont img{
+    width: 100%;
+    height: 100%;
+  }
+  .burger_menu{
+    display: none;
+  }
+  .cont_list{
+    display: flex;
+    align-items: center;
+  }
+  .cont_li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .list {
+    
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  .register_container{
+    display: flex;
+    align-items: center;
+  }
+  
+  .regist_list {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    gap: 1rem;
+  }
+  
+
+  .select_op{
+    border: none;
+  }
+  .sel_op:hover{
+    text-decoration: underline;
+    border: none;
+  }
+  @media(max-width: 1024px){
+    .logo_cont{
+      display: flex;
+      margin:0 auto;  
+      width: 70px;
+      height: 60px;
+    }
+    
+    .logo_cont img{
+      width: 100%;
+      height: 100%;
+    }
+  
+  }
+  @media(max-width: 768px){
+    .logo_cont{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .logo_cont img{
+      width: 50px;
+      height: 50px;
+    }
+    .cont_li{
+      display: none;
+    }
+  
+    .regist_list{
+      display: none;
+    }
+    .burger_menu{
+      display: flex;
+    }
+    
+  }
+  /* main */
+  .main_row{
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+  .banner_cont{
+    background-color: rgba(0, 9, 60, 1);
+    color: white;
+    display: flex;
+    /* width: 100%;
+    height: 500px; */
+  }
+  .right_banner{
+    Width:517px;
+    Height: 480px;
+
+    background: url(../img/shahmat.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+  }
+  .img_phot{
+    width: 100%;
+    height: 66.5vh;
+    background: url(..//img/Rectangle\ 141.svg);
+    background-repeat: no-repeat;
+  }
+
+
+
+  .left_banner{
+    gap: 3rem;
+    /* justify-content: center; */
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    /* height: 100vh; */
+    display: flex;
+  }
+  .school h1{
+    font-size: 50px;
+  }
+  .school h2{
+    display: flex;
+    justify-content: center;
+}
+  
+  .srok {
+    display: flex;
+    gap: 2rem;
+  }
+ 
+.rejim{
+     width: 300px;
+
+  }
+.zapisaysa p{
+    /* gap: 5rem; */
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+.ot{
+    margin-bottom: 28px;
+
+}
+.zapisaysa button{
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(247, 148, 29, 1);
+ }
+.target{
+    margin-left: 40%;
+    align-items: flex-start;
+    width: 700px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5rem;
+    margin-top: 5px;
+    align-items: center;
+}
+.video_container {
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    max-width: 750px;
+    margin: 0 auto;
+  
+  }
+  .video_container video{
+    height: 100%;
+    width: 100%;
+  
+  
+  }
+.school_icon{
+    /* width: 100%; */
+    /* display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; */
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.school_text h3{
+    width: 100%;
+    height: 40.86px;
+}
+.school_text p{
+    width: 679px;
+    height: 121px;
+}
+.s_icon{
+    display: flex;
+    width: 60%;
+    margin-left: 22px ;
+    justify-content: center;
+    gap: 5rem;
+}
+.subtract{
+    margin-top: 55px;
+    background-color: rgba(0, 9, 60, 1);
+    color: white;
+    height: 210px;
+    /* width: 85%; */
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.subtract_text{
+    gap: 5rem;
+    display: flex;
+    width: 55%;
+    /* gap: 8rem; */
+}
+.subtract_text p{
+    /* display: flex; */
+    /* width: 55%; */
+    /* width: 25%; */
+}
+.subtract_button {
+    background-color: rgba(0, 9, 60, 1);
+    display: flex;
+    justify-content: center;
+}
+.subtract_button button{
+    padding: 15px;
+    background-color: rgba(247, 148, 29, 1);
+    border-radius: 10px;
+    color: white;
+}
